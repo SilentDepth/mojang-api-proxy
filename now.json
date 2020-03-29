@@ -1,5 +1,4 @@
 {
-  "name": "mojang-api-proxy",
   "version": 2,
   "alias": "mojang-api.silent.land",
   "routes": [
