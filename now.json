@@ -2,8 +2,8 @@
   "version": 2,
   "alias": "mojang-api.silent.land",
   "routes": [
-    {"src": "/localhost/(.*)", "headers": {"Access-Control-Allow-Origin": "http://localhost"}, "dest": "https://api.mojang.com/$1"},
     {"src": "/stats.craft.moe/(.*)", "headers": {"Access-Control-Allow-Origin": "https://stats.craft.moe"}, "dest": "https://api.mojang.com/$1"},
-    {"src": "/i.nyaa.cat/(.*)", "headers": {"Access-Control-Allow-Origin": "https://i.nyaa.cat"}, "dest": "https://api.mojang.com/$1"}
+    {"src": "/i.nyaa.cat/(.*)", "headers": {"Access-Control-Allow-Origin": "https://i.nyaa.cat"}, "dest": "https://api.mojang.com/$1"},
+    {"src": "/nyaastats-preview.silent.land/(.*)", "headers": {"Access-Control-Allow-Origin": "https://nyaastats-preview.silent.land"}, "dest": "https://api.mojang.com/$1"}
   ]
 }
